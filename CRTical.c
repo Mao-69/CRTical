@@ -1,5 +1,5 @@
 /*
- * CRTical.c — RSA CRT dp-leak recovery tool
+ * CRTical.c — RSA CRT dp-leak recovery tool | auth: soCx
  *
  * Recovers an RSA private key from a leaked dp value (CRT exponent),
  * then decrypts a ciphertext file using RSA-OAEP (SHA-256).
