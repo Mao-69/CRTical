@@ -73,15 +73,15 @@ Exposure of CRT parameters is equivalent to private key compromise.
 
 ### Recover from raw dp (hex)
 
-    ./CRTical       --pub public.pem       --dphex <hex_value>       --cipher encrypted.bin
+    ./CRTical --pub public.pem --dphex <hex_value> --cipher encrypted.bin
 
 ### Recover from encoded fragments
 
-    ./CRTical       --pub public.pem       --chunks <chunk1> <chunk2> ...       --cipher encrypted.bin
+    ./CRTical --pub public.pem --chunks <chunk1> <chunk2> ... --cipher encrypted.bin
 
 ### Recover from crash log (JSONL)
 
-    ./CRTical       --pub public.pem       --jsonl crash.jsonl       --cipher encrypted.bin
+    ./CRTical --pub public.pem --jsonl crash.jsonl --cipher encrypted.bin
 
 ------------------------------------------------------------------------
 
